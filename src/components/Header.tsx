@@ -92,7 +92,7 @@ const Header: React.FC = () => {
             <Nav open={menuOpen}>
               <NavButton to="/">プロジェクト</NavButton>
               <NavButton to="#">清算</NavButton>
-              <NavButton to="/projects/${projectId}/receipts">レシート</NavButton>
+              <NavButton to={`/projects/${projectId}/receipts`}>レシート</NavButton>
               <NavButton to="#">支出</NavButton>
             </Nav>
           </>
